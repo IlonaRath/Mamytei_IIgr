@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*pradžia*/
+main{
+    width: 100%;
+    height: auto;  /*pakeičiau*/
+    background-color: cadetblue;
+    text-align: center;
+}
+div{
+    width: 40%;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px;
+}
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'New Tegomin', serif;
+*/
+h1, h2{
+    font-family: 'New Tegomin', serif;
+    font-size: 50px;
+    color:#fff;
+    font-weight: 600;
+    text-shadow: 2px 2px grey;
+}
+pre{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color:darkgreen;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-shadow: 1px 1px olive;
+    margin: 20px;
+}
+
+.foto{
+    position: relative;
+    border-radius: 50% 0;
+    overflow: hidden;
+}
+.mama{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top:90px;
+    left: 80px;
+    border-radius: 50%;
+}
+.puokste{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top:0;
+    left: 0;
+    mix-blend-mode: screen;
+}
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-image: url(hart.png);
+    background-repeat: repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-top: 50px;
+}
+footer p{
+   font-family: 'New Tegomin', serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+    
+    div{
+        display: block;
+        height: 600px;
+        
+    }
+    .text, .foto{
+        margin: 20px auto;
+        width: 90%;
+    }
+    
+    h1, h2{
+       font-size: 45px; 
+    }
+    .foto{
+        height: 400px;
+    }
+    pre{
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
